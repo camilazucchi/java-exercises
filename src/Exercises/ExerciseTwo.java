@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ExerciseTwo {
     public static void main(String[] args) {
         // 2. Faça um algoritmo que receba dois números e ao final mostre a soma, subtração, multiplicação e a divisão
-        //dos dois números lidos.
+        // dos dois números lidos.
         DecimalFormat df = new DecimalFormat("#.##");
 
         try (Scanner scanner = new Scanner(System.in)) {
