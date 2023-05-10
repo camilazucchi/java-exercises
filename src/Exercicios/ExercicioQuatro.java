@@ -12,9 +12,13 @@ public class ExercicioQuatro {
         String nomeVendedor = scanner.next();
         System.out.println("Olá, " + nomeVendedor + ". " + "Digite o seu salário fixo:");
         double salarioFixo = scanner.nextDouble();
-        System.out.println("Digite o total de vendas efetuadas:");
+        // Entrada para o valor total de vendas efetuadas:
+        System.out.println("Digite o valor total de vendas efetuadas:");
         double vendasEfetuadas = scanner.nextDouble();
-        double calculaComissao = (vendasEfetuadas * 0.15);
+        // Cálculo de comissão:
+        double taxaDeComissao = 0.15;
+        double calculaComissao = (vendasEfetuadas * taxaDeComissao);
+        // Cálculo do salário final (salário fixo + comissão das vendas):
         double calculaSalarioFinal = (salarioFixo + calculaComissao);
         System.out.println(nomeVendedor + ", o seu salário fixo é de: " + salarioFixo + ".");
         System.out.println("Sua comissão é de: " + calculaComissao + ".");
