@@ -51,5 +51,7 @@ public class ExercicioVinte {
 
         System.out.println("Total de carros semi novos: " + totalCarrosSemiNovos);
         System.out.println("Total de carros: " + totalCarros);
+
+        leitor.close();
     }
 }
